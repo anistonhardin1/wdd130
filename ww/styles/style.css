@@ -1,11 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+QDL+Beginner=Inter:ital,wght@0,400;0,700;1,400&display=swap');
 
-div {
-    max-width: 1600px;
-  }
  #content {
-      margin: 0 auto;
-  }
+  max-width: 1600px;
+      margin: 0 auto; }
   div.a {
     text-align: center;
   }
@@ -122,16 +119,16 @@ footer .social img {
   font-size: 2em;
   margin-top:10px;
 }
-river-card {
+.rivers-card {
   margin: 200px 0;
 }
-camping-card {
+.camping-card {
   margin: 200px 0;
 }
-rapids-card {
+.rapids-card {
   margin: 200px 0;
 }
-card-img {
+.card-img {
   border: 10px solid #0d0d0e;
 }
 main section img {
