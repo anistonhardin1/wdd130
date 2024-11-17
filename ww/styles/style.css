@@ -2,7 +2,9 @@
 
  #content {
   max-width: 1600px;
-      margin: 0 auto; }
+      margin: 0 auto;
+    }
+
   div.a {
     text-align: center;
   }
@@ -238,48 +240,69 @@ main section img {
 }
 
 -- -------- sencond half of css ----------------- --
+
+#allofit{
+  max-width: 1000px; 
+}
 #hello { 
-  width: 200px;
-  height: 200px;
-  display:flex;
-  flex-direction: column;
-  align-items:center;
-  padding:20px;
+  margin-left: 500px;
+  margin-top: 50px;
+  width: 450px;
+ height: 300px;
+ 
 }
 .title {
-  max-width:1000px;
-  margin: 40px auto;
-  padding:20px;
+  margin: -320px 300px 0px 1000px;
+   text-align: center;
   }
 .kids {
-  max-width:800px;
-  margin: 40px auto;
-  padding: 20px;
-   font-size: 16px;
-   text-align: justify;
-color: #6f7364;
-} 
+ margin: 0px 350px 10px 1000px;
+}
 .safe{
-  width:250px;
-  height:200px;
-  margin: 10px;
-  display:flex;
+  width: 450px;
+  height: 300px;
+  margin: -1000px auto auto 800px;
 }
 .saftey{
-  display:flex;
-  flex-direction: column;
-  align-items:center;
-  padding:20px;
+  margin: 20px 800px 30px 500px;
+}
+.stuff{
+  width: 450px;
+  height: 300px;
+  margin-left: -850px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: -350px;
 }
 .stuff-needed{
-  margin-right: 1075px;
+  margin-left: 450px;
+  margin-right: -220px;
+  margin-bottom: 50px
 }
-.whattob{ 
-  margin:20px 150px auto 300px;
+.title-stuff{
+  text-align: center;
+}
+.whattob{
+  margin-left:250px;
+   margin-right: -350px;
+}
+.what{
+  width: 500px;
+  height: 300px;
+  margin-left: 160px;
+  margin-right: 350px;
+  margin-bottom:20px;
 }
 .having-fun{
-  margin:20px 150px auto 300px;
+  width: 500px;
+  height: 300px;
+  margin-left:450px;
+  margin-right: 350px;
+  margin-bottom:20px;
 }
 .fun{
-  margin:20px 150px auto 300px;
+   margin-left:250px;
+   margin-right: -350px;
+  margin-bottom: 150px;
 }
+
