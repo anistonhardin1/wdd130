@@ -215,7 +215,7 @@ main section img {
       display: none;
   }
   #hero-msg h1 {
-      color: #6f7364;
+      color: #0f0f0f;
   }
   .home-title {
       font-size: 25px;
@@ -274,4 +274,12 @@ color: #6f7364;
 .stuff-needed{
   margin-right: 1075px;
 }
-
+.whattob{ 
+  margin:20px 150px auto 300px;
+}
+.having-fun{
+  margin:20px 150px auto 300px;
+}
+.fun{
+  margin:20px 150px auto 300px;
+}
