@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+#content {
+    max-width: 1600px;
+        margin: 0 auto;
+      }
+      header {
+        background-color:rgba(37, 68, 90, 0.7);
+        display: grid;
+        grid-template-columns: 150px auto;
+      }
+      nav a:hover {
+        background-color: black;
+        color:#fcfcfc;
+      }
+    #nav {
+        text-align: center;
+        color:#474733;
+        text-decoration: none;
+        padding: 35px;
+      }
+.logo {
+    width: 80px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+#home-img { 
+        width: 100%;
+      }
+
