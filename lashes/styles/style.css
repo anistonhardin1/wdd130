@@ -1,16 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
-#content {
-    max-width: 1600px;
-        margin: 0 auto;
-      }
-      header {
-        background-color:rgba(37, 68, 90, 0.7);
 
+#content {
+  max-width: 1600px;
+      margin: 0 auto;
+    }
+      header {
+        background-color:#dabebf;
+        text-align: center;
       }
       nav a:hover {
         background-color: black;
         color:#fcfcfc;
+      }
+      div {
+       background-color:#474733;
+       text-align:center;
       }
     nav {
         text-align: center;
@@ -18,29 +23,28 @@
         text-decoration: none;
         padding: 35px;
       }
-.logo {
+    .logoo {
     width: 80px;
+    height: 20px;
 }
-#logo_link {
+ #logo_link {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
 }
-#home-img { 
-        width:50%;
+  .himg {
+        width:50px;
+        height: 200px;
       }
-      footer { 
+      footer {
         background-color:#528996;
         color: black;
         font-size: 1.2em;
         padding: 25px 50px;
         margin-top: 200px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    
+        
     }
-    footer a { 
+    footer a {
         color: rgb (18, 2, 246);
         text-decoration: none;
     }
@@ -54,5 +58,7 @@
       padding-top: 15px;
     }
 
+
 /*sub page book now  */
-      
+     
+
