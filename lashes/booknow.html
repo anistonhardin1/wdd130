@@ -47,22 +47,24 @@
         
         /* Caption text */
         .text {
-          color: #f2f2f2;
+          color: #2b0b0b;
           font-size: 15px;
           padding: 8px 12px;
           position: absolute;
           bottom: 8px;
           width: 100%;
           text-align: center;
+          background-color:#f0b9b9;
         }
         
         /* Number text (1/3 etc) */
         .numbertext {
-          color: #f2f2f2;
+          color: #220b0b;
           font-size: 12px;
           padding: 8px 12px;
           position: absolute;
           top: 0;
+        background-color:#dabebf;
         }
         
         /* The dots/bullets/indicators */
@@ -71,7 +73,6 @@
           height: 15px;
           width: 15px;
           margin: 0 2px;
-          background-color: #bbb;
           border-radius: 50%;
           display: inline-block;
           transition: background-color 0.6s ease;
@@ -104,12 +105,13 @@
             display: inline-block;
          /*Form outline*/
          padding: 1em;
-         border: 1px solid #ccc;
-         border-radius: 1em;   
+         border: 1px solid #110606;
+         border-radius: 1em;
+         background-color: rgb(241, 227, 227);   
         }
         
         p+p {
-            margin-top: 1em;
+            margin-top:2em;
         }
         label { 
             /* Uniform sized & alignment*/
@@ -124,7 +126,7 @@
             width: 300px;
             box-sizing: border-box;
             /* Match form field border */
-            border: 1px solid #999;
+            border: 1px solid #110b0b;
         }
         input:focus, textarea:focus {
             /*Set the outline width and style*/
@@ -166,33 +168,31 @@ button {
             <img class="logo" src="images/rlogo.png" alt="Lash Logo">
     </a>
     <nav>
-        <a href="index.html">Home Page</a>
+        <a href="index.html">HomePage</a>
         <a href="faqs.html">FAQs</a>
-        <a href="site-plan.html">Site Plan</a>
-        <a href="booknow.html">Book Now</a>   
+        <a href="site-plan.html">SitePlan</a>
+        <a href="booknow.html">BookNow</a>   
      </nav>
     </header>
     <body>
+      <div id="content">
         <div class="slideshow-container">
 
             <div class="mySlides fade">
               <div class="numbertext">1 / 3</div>
               <img src="images/lash&twez2.jpg" style="width:100%">
-              <div class="text">Lash Process</div>
-            </div>
+                          </div>
             
             <div class="mySlides fade">
               <div class="numbertext">2 / 3</div>
               <img src="images/b&fulfac.jpg" style="width:100%">
-              <div class="text">Before & After</div>
+              
             </div>
             
             <div class="mySlides fade">
               <div class="numbertext">3 / 3</div>
               <img src="images/closeupbn.jpg" style="width:100%">
-              <div class="text">Be Beautiful</div>
             </div>
-            
             <a class="prev" onclick="plusSlides(-1)">❮</a>
             <a class="next" onclick="plusSlides(1)">❯</a>
             
@@ -258,9 +258,10 @@ button {
    </main> 
 
     <footer>
-        <p>Ahbeauty &copy; 2024 - Aniston Hardin</p>
-        <p><a href="site-plan-rafting.html">Site Plan</a></p>
-        <p><a href="contactus.html">Book Now</a></p>
+      <p>Ahbeauty &copy; 2024 - Aniston Hardin</p>
+      <p><a href="site-plan.html">Site Plan</a></p>
+      <p><a href="booknow.html">Book Now</a></p>
+      <p><a href="faqs.html">FAQs</a></p>
     <div class="social">
         <a href="https://facebook.com" target="_blank">
             <img src="images/facebook.png" alt="facebook icon">
@@ -290,6 +291,6 @@ button {
             document.body.classList.toggle('moveDown');
         });
     </script>    
-
+</div>
 </body>
 </html>
